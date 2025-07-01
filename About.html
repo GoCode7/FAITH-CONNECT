@@ -20,35 +20,40 @@
   </style>
   <body class="">
     <!-- <div class="bg-[#FFB825] h-20 w-24 rounded-[25px] left-[88%] mr-[200px] translate-y-[-50px] absolute"></div> -->
-    <header class="px-10">
-        <div class="flex justify-between items-center mt-10 mb-3">
+    <header class="px-10 mt-5">
+        <div class="flex justify-between items-center md:mt-10 md:mb-3">
             <div>
-              <img src="imagess/logo.png" alt="" class="w-[200px]" />
+              <img src="imagess/logo.png" alt="" class="w-[150px] md:w-[200px] " />
             </div>
             <nav>
-                <div class="gap-15 flex text-[30px]">
+                <div class="md:gap-15 md:flex md:text-[30px] hidden">
                  <a href="">Podcast</a>
                  <a href="">Books</a>
                  <a href="">Quotes</a>
                  <a href="">Events</a>
                  <a href="">About Us</a>
                 </div>
+                <div>
+                  <button class="md:hidden">
+                    <i class="fa fa-bars text-[30px]"></i>
+                  </button>
+                </div>           
             </nav>
         </div>
     </header>
     <main>
       <div
-        class="flex bg-[#EEEEEE] pt-[20px] pb-[30px] justify-center w-full items-center h-[250px]"
+        class="flex bg-[#EEEEEE] justify-center w-full items-center py-10 md:h-[250px] md:pt-[20px] md:pb-[30px]"
       >
-        <h1 class="text-[90px] text-[#000000]">About Us</h1>
+        <h1 class="md:text-[90px] text-[#000000] text-[40px] font-[500]">About Us</h1>
       </div>
       <div
-        class="flex w-full h-[863px] space-x-20 px-20"
+        class="w-full md:h-[650px] md:space-x-20"
         style="background: linear-gradient(to right, white 88%, #ffb825 0%)"
       >
-        <div class="flex justify-center w-1/1 h-full pt-20">
-          <div class="w-1/1">
-            <p class="text-[50px] leading-[70px]">
+        <div class="flex justify-center w-1/1 h-full gap-10 items-center px-10">
+          <div class="w-1/ md:w-2/3">
+            <p class="md:text-[40px] md:leading-[40px] text-[15px]">
               At Faith Connect, our heart's desire is to weave a tapestry of
               love, support, and spiritual growth, uniting believers from all
               walks of life in a vibrant community. We envision a platform where
@@ -62,34 +67,34 @@
             <img
               src="imagess/199e304b106d3c98b00ca3aed212a0d1703e151f.png"
               alt=""
-              class="w-[792px] h-[700px] mr-30"
+              class="h-[250px] w-[1800px] md:w-[700px] md:h-[550px] md:mr-10"
             />
           </div>
         </div>
       </div>
     </main>
-    <footer class="px-20 mt-50">
-      <div class="flex justify-between pt-50">
+    <footer>
+      <div class="pt-10 px-10 flex md:justify-between md:pt-30 md:px-15">
         <div class="w-1/2">
-          <h2 class="text-[48px] font-bold">QUICK LINKS</h2>
-          <ul class="flex flex-col space-y-2 leading-[90px]">
-            <li class="text-[48px]"><a href="#">Podcast</a></li>
-            <li class="text-[48px]"><a href="#">Books</a></li>
-            <li class="text-[48px]"><a href="#">Quotes</a></li>
-            <li class="text-[48px]"><a href="#">Events</a></li>
+          <h2 class="font-bold text-[24px] md:text-[38px]">QUICK LINKS</h2>
+          <ul class="leading-[35px] text-[24px] md:text-[38px] md:flex md:flex-col md:space-y-2 md:leading-[70px]">
+            <li><a href="#">Podcast</a></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Quotes</a></li>
+            <li><a href="#">Events</a></li>
           </ul>
         </div>
-        <div class="leading-[130px]">
-          <img src="images/logo.png" alt="" class="h-[150px] mb-[50px]" />
-          <h3 class="ml-20 text-[48px]">
-            <i class="fa-solid fa-phone-volume text-[48px]"></i> +234 0000001119
+        <div class="md:leading-[100px] md:text-[38px] md:items-left">
+          <img src="imagess/logo.png" alt="" class="h-[40px] mt-3 mb-5 md:h-[70px] md:mb-[40px] md:mt-5" />
+          <h3 class="ml-4 mb-2 md:ml-10">
+            <i class="fa-solid fa-phone-volume"></i> +234 0000001119
           </h3>
-          <h3 class="ml-20 text-[48px]">
-            <i class="fa-solid fa-location-dot text-[48px]"></i> Redemption City
+          <h3 class="ml-4 md:ml-10">
+            <i class="fa-solid fa-location-dot"></i> Redemption City
           </h3>
         </div>
       </div>
-      <div class="justify-center flex text-[48px] mt-30 pb-12">
+      <div class="justify-center flex md:text-[30px] mt-30 md:pb-5">
         <h3>&copy; 2023 Faith Connect.</h3>
       </div>
     </footer>
